@@ -8,6 +8,26 @@ So this repository is the result of the study I'm doing for the selection exam.
 
 ## Installation & Running
 
+To build run one script, you can use:
+
+```shell
+g++ main.cpp -o main
+```
+*where `-o` tells that the output file will be called `main`*
+
+Then you can execute it with:
+
+```shell
+./main
+```
+
+In addition, you can execute both commands in one line, with:
+
+```shell
+g++ main.cpp -o main && ./main
+```
+*this will both compile the .cpp file and right after it, execute it.*
+
 ## Progress
 
 I'm following courses of giraffe academy to remember the language. 
